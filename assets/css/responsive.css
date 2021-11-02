@@ -1,0 +1,26 @@
+@media screen and (min-width: 2560px) {
+  .container {
+    width: 20%;
+    height: 70%;
+  }
+  .container .buttons .row .button {
+    width: calc(25% - 1rem);
+    height: calc(100% - 1rem);
+    margin: .5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 45%;
+    height: 90%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .container {
+    width: 80%;
+    height: 90%;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
